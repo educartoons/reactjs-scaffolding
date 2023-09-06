@@ -13,6 +13,10 @@ function App() {
   );
 }
 
-const root = createRoot(document.getElementById('root'));
+console.log('edd')
+
+const node = document.getElementById('root')!;
+
+const root = createRoot(node);
 
 root.render(<App />);
